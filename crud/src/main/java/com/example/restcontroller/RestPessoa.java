@@ -18,10 +18,10 @@ import com.example.pessoa.PessoaService;
 @RequestMapping("/rest/pessoas")
 public class RestPessoa {
 
-	@GetMapping("/id")
+	/*@GetMapping("/id")
 	public String pessoa() {
 		return "Ola";
-	}
+	}*/
 	
 	@Autowired
 	private PessoaService service;
